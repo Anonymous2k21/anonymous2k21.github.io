@@ -1,0 +1,55 @@
+@media only screen and (max-width: 600px) {
+    .h1{
+      size: 10%;
+    }
+  }
+  
+  
+  body{
+    background-image:
+      linear-gradient(rgb(202, 127, 52),rgb(70, 51, 30));
+   padding: 5%;
+      color: rgb(255, 255, 255);
+    
+    }
+  
+    h1{
+      color: #000;
+    }
+    
+    
+    .navbar {
+      width: 99.7%;
+      background-color: #000; 
+      color: chartreuse;
+      overflow: auto;
+      padding: 1%; 
+      border: 1%;
+      border-color: rgb(255, 16, 16);
+  
+  }
+    
+    .navbar a {
+      float: left;
+      padding: 2%;
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      font-size: 17px;
+      width: 46%;   
+      text-align: center; 
+       @media only screen and (max width: 700px)
+        { 
+            width: 0.1%;
+      text-align: center;
+      }
+      
+  
+    }
+  
+    .navbar a:hover {
+      background-color: #000;
+    }
+  
+    .navbar a.active {
+      background-color: rgb(112, 22, 22);
+    }
