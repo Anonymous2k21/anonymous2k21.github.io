@@ -1,8 +1,13 @@
 body{
-    background-image: linear-gradient(rgb(77, 5, 5),rgb(0, 0, 0));
+    
     background-repeat: no-repeat;
     color: rgb(255, 255, 255);
   
+  }
+  @media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
   }
 
   h1{ 
