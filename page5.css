@@ -1,17 +1,101 @@
 body{
-    
+    background-image: linear-gradient(rgb(77, 5, 5),rgb(0, 0, 0));
     background-repeat: no-repeat;
-    color: rgb(255, 255, 255);
-  
+    color: rgb(238, 204, 132);
   }
   @media only screen and (max-width: 900px) {
     body {
-      background-color: lightblue;
+      background-image: url(page5media/bakgrunn.jpg);
+      background-size: 1500px;
     }
+    .header{
+        margin-left: 0%;
+    }
+  }
+  .bell1{
+      float: left;
+      width: 12%;
+  }
+  .bell2{
+      float: right;
+      width: 12%;
+  }
+  
+  .header{
+      display: inline-block;
+      align-items: center;
+      justify-content: center;
+      margin-left: 9%;
   }
 
   h1{ 
       text-align: center;
       font-style: italic;
+      color: rgb(238, 204, 132);
+      width: 100%;
   }
+
+  h2, p{
+      text-align: center;
+  }
+
+ .xmastree{
+     width: 22%;
+     float: right;
+ }
+
+ .churros{
+     width: 22%;
+     float: left;
+ }
+ .pepperkake{
+    width: 20%;
+    float: right;
+}
+.xmasshop{
+    width: 22.5%;
+    float: left;
+
+}
+ .family{
+    display: inline;
+    float: left;
+    margin-left: 11.5%;
+    width: 20%;
+    padding-bottom: 4%;
+ }
+ 
+.jul{
+    width: 16.7%;
+    display: inline;
+    float: left;
+    margin-left: 10%;
+    padding: 1%;
+}
+
+.julivinterland{
+    width: 16.7%;
+    display: inline;
+    float: right;
+    margin-right: 10%;
+    padding: 1%;
+
+}
+ figure{
+    width: 30%;
+    text-align: center;
+    font-size: smaller;
+    text-indent: 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+ }
+
+ .playlist{
+     width: 100%;
+ }
+
+ hr{
+    border: 1px solid rgb(238, 204, 132); 
+ }
 
