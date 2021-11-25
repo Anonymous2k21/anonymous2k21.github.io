@@ -3,13 +3,9 @@ body{
     background-repeat: no-repeat;
     color: rgb(238, 204, 132);
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 600px) {
     body {
-      background-image: url(page5media/bakgrunn.jpg);
-      background-size: 1500px;
-    }
-    .header{
-        margin-left: 0%;
+      background-image: url('page5media/bakgrunn.jpg');
     }
   }
   .bell1{
