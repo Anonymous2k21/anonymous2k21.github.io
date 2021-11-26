@@ -3,11 +3,6 @@ body{
     color: rgb(238, 204, 132);
   }
 
-  @media only screen and (max-width: 900px) {
-    body {
-      background-image: url('page5media/bakgrunn.jpg');
-    }
-  }
 
   .bell1{
       float: left;
