@@ -3,6 +3,12 @@ body{
     color: rgb(238, 204, 132);
   }
 
+  @media only screen and (max-width: 900px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+
   .bell1{
       float: left;
       width: 12%;
