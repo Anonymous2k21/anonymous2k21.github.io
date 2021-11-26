@@ -10,13 +10,23 @@ body{
     text-align: center;
     font-family: 'Times New Roman', Times, serif;
   }
+
+  .logo{
+    float: left;
+    width: 12%;
+    padding-bottom: 1%;
+}
+ .heading{
+   float: left;
+   padding-left: 22%;
+   color: rgb(240, 227, 47);
+ }
   
   .navbar {
     width: 99.7%;
     background-color: rgb(236, 188, 29); 
     overflow: auto;
-    padding: 1%; 
-    border: 1%;
+    padding: 1%;
   }
 
   .navbar a.active {
@@ -32,6 +42,20 @@ body{
     text-align: center; 
     font-size: 70%;
   }
+
+  .contentpage1{
+    text-align: center;
+    padding-bottom: 3%;
+  }
+
+  .oslomet{
+    padding-bottom: 30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+
   .kodebilde{
     float: left;
     width: 30%;
@@ -40,8 +64,37 @@ body{
     }
 
   .page2heading{
-    padding-left: 1%;
+    padding-left: 2%;
     }
+
+  .css{
+    width: 48%;
+    float: left;
+    display: inline;
+    padding-bottom: 2%;
+  }
+
+  .cssfault{
+    width: 49%;
+    padding-left: 2.5%;
+    float: right;
+    display: inline;
+    padding-bottom: 3%;
+  }
+
+  .htmlerrors{
+    width: 50%;
+    float: left;
+    display: inline;
+    padding-bottom: 2%; 
+  }
+
+  .htmlnoerrors{
+    width: 49%;
+    float: right;
+    display: inline;
+    padding-bottom: 11% ;
+  }
 
     .robot{
       float: right;
